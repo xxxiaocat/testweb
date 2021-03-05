@@ -13,7 +13,7 @@ $(document).ready(function(){
         var seconds = parseInt(time / 1000 % 60);
         
         var syday =  hour  + "小时" +  minute +  "分钟"  + seconds +  "秒";
-        $('.days').html( day +"<b> &nbsp&nbsp </b>" );
+        $('.days').html( day );
         $(".hours").html(syday);
         
     }, 1000);

@@ -31,10 +31,11 @@ http://themeforest.net/licenses
 	.pane-when .clock .elem-center .digit{
     	font-size: 90px;
 	}
-	.pane-when .clock .elem-center .txt {
-		top: 1em;
+	.pane-when .clock .elem-right .txt {
+		top: -3em;
 		font-size: 20px;
 	}
+	
 	.pane-when .clock .elem-bottom .deco:after,
 	.pane-when .clock .elem-bottom .deco:before{
 		width: 10px;
